@@ -1,9 +1,11 @@
 .card__phrase {
   font-weight: 300;
   line-height: 1.5;
-  font-size: 1.1rem;
-  color: white;
+  font-size: 1.4rem;
+  color: rgb(255, 247, 247);
   font-style: italic;
+  text-shadow: 0.1em 0.1em 0.1em rgb(47, 45, 45); 
+  -webkit-text-stroke: 0.05em rgb(0, 0, 0);
 }
 
 .card__phrase::after {
@@ -12,4 +14,13 @@
 
 .card__phrase::before {
   content: '"';
+}
+
+.card__author {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  text-shadow: 0.1em 0.1em 0.1em rgb(184, 184, 184); 
 }
