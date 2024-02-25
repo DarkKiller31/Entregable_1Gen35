@@ -13,7 +13,8 @@
   font-size: 3rem;
   text-align: center;
   text-shadow: 0.1em 0.1em 0.1em rgb(65, 61, 61); 
-  color: rgb(6, 7, 7); 
+  color: rgb(255, 255, 255); 
+  -webkit-text-stroke: 0.02em rgb(0, 0, 0);
 }
 .app__card {
   width: 100%;
