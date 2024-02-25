@@ -15,7 +15,7 @@ const BtnPhrase = ({ setPhraseRandom, setImageSelected }) => {
 
 
   return (
-    <button className="card__btn" onClick={handleClick}>Probar mi suerte</button>
+    <button className="card__btn" onClick={handleClick}>Nueva Frase</button>
   )
 }
 
