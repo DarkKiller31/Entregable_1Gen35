@@ -6,7 +6,7 @@ const PhraseCard = ({ phraseRandom }) => {
   return (
     <>
       <p className="card__phrase">{phrase}</p>
-      <p className="card__author">{author}</p>
+      <p className="card__author">- {author}.</p>
     </>
   );
 };

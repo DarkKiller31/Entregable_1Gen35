@@ -8,21 +8,33 @@
   align-items: center;
   gap: 3em;
 }
-.app__title {
-  font-weight: 700;
-  font-size: 3rem;
-  text-align: center;
-  text-shadow: 0.1em 0.1em 0.1em rgb(65, 61, 61); 
-  color: rgb(255, 255, 255); 
-  -webkit-text-stroke: 0.02em rgb(0, 0, 0);
-}
 .app__card {
   width: 100%;
   max-width: 500px;
-  background-color: rgba(100, 123, 131, 0.7);
+  min-height: 50vh;
+  background-color: rgba(255, 255, 255, 0.59);
   padding: 1.5em 2em;
   border-radius: 0.8em;
   display: grid;
   gap: 1em;
-  box-shadow: 0.3em 0.3em 0.5em rgb(36, 45, 48);
+  box-shadow: 0em 0em 1em rgba(219, 207, 70, 0.664);
+  backdrop-filter: blur(10px);
+}
+.app_boxTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.66);
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 9px black;
+  backdrop-filter: blur(10px);
+}
+.app__title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(22, 22, 22); 
 }

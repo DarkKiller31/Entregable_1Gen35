@@ -14,18 +14,20 @@ function App() {
   const [imageSelected, setImageSelected] = useState(initialImage)
 
   const objStyle = {
-    backgroundImage: `url("/fondo${imageSelected}.png")`
+    backgroundImage: `url("/fondo${imageSelected}.jpg")`
   }
 
   return (
     <div className='app' style={objStyle}>
-      <h1 className='app__title'>Frases Célebres</h1>
       <article className='app__card'>
-      <PhraseCard phraseRandom={phraseRandom} />
-      <BtnPhrase 
-      setPhraseRandom={setPhraseRandom}
-      setImageSelected={setImageSelected}
-      />
+        <div className='app_boxTitle'>
+          <h1 className='app__title'>Frases Célebres</h1>
+        </div>
+        <PhraseCard phraseRandom={phraseRandom} />
+        <BtnPhrase 
+        setPhraseRandom={setPhraseRandom}
+        setImageSelected={setImageSelected}
+        />
       </article>
     </div>
   )

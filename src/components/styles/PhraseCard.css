@@ -1,11 +1,10 @@
 .card__phrase {
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.5;
-  font-size: 1.4rem;
-  color: rgb(255, 247, 247);
+  font-size: 1.5rem;
+  color: rgb(2, 2, 2);
+  line-height: 1.5em;
   font-style: italic;
-  text-shadow: 0.1em 0.1em 0.1em rgb(47, 45, 45); 
-  -webkit-text-stroke: 0.05em rgb(0, 0, 0);
 }
 
 .card__phrase::after {
@@ -17,10 +16,12 @@
 }
 
 .card__author {
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.5;
   font-size: 1.3rem;
   color: rgb(0, 0, 0);
   font-style: italic;
-  text-shadow: 0.1em 0.1em 0.1em rgb(184, 184, 184); 
+  color: rgb(234, 234, 234);
+  text-shadow: 0.1em 0.1em 0.1em rgb(65, 61, 61); 
+  text-align: right;
 }
