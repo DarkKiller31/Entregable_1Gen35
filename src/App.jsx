@@ -19,10 +19,10 @@ function App() {
 
   return (
     <div className='app' style={objStyle}>
-      <article className='app__card'>
         <div className='app_boxTitle'>
           <h1 className='app__title'>Frases Célebres</h1>
         </div>
+      <article className='app__card'>
         <PhraseCard phraseRandom={phraseRandom} />
         <BtnPhrase 
         setPhraseRandom={setPhraseRandom}
