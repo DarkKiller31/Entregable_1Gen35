@@ -29,6 +29,9 @@ function App() {
         setImageSelected={setImageSelected}
         />
       </article>
+      <div class="attribution">
+        Coded by <a href="https://portafolio-camilo-trujillo.netlify.app/">Juan Camilo Trujillo</a>.
+      </div>
     </div>
   )
 }
